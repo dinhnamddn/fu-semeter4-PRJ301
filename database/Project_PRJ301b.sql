@@ -103,21 +103,21 @@ insert into Voucher values
 	('WEDDING15', 15, 15, 1)
 go
 insert into Product values
-	('P01', 'Love Letter', '15', 250.0, 'images/WD-LoveLetter.jpg', 'WD'),
-	('P02', 'Magic Moments', '15', 150.0, 'images/WD-MagicMoments.jpg', 'WD'),
-	('P03', 'Spring Poetry', '15', 250.0, 'images/WD-SpringPoetry.jpg', 'WD'),
-	('P04', 'Beautiful Day', '15', 190.0, 'images/CO-BeautifulDay.jpg', 'CO'),
-	('P05', 'New Day', '15', 130.0, 'images/CO-NewDay.jpg', 'CO'),
-	('P06', 'Silent', '15', 200.0, 'images/CO-Silent.jpg', 'CO'),
-	('P07', 'Forever', '15', 500.0, 'images/AN-Forever.jpg', 'AN'),
-	('P08', 'Pink Dream', '15', 150.0, 'images/AN-PinkDream.jpg', 'AN'),
-	('P09', 'Sweet Thoughts', '15', 230.0, 'images/AN-SweetThoughts.jpg', 'AN'),
-	('P10', 'Color Of Love', '15', 260.0, 'images/RO-ColorOfLove.jpg', 'RO'),
-	('P11', 'Told me', '15', 280.0, 'images/RO-ToldMe.jpg', 'RO'),
-	('P12', 'Falling In Love', '15', 190.0, 'images/RO-FallingInLove.jpg', 'RO'),
-	('P13', 'Reaching Hearts', '15', 320.0, 'images/DE-ReachingHearts.jpg', 'DE'),
-	('P14', 'Warm Sunny', '15', 420.0, 'images/DE-WarmSunny.jpg', 'DE'),
-	('P15', 'Wonder', '15', 360.0, 'images/DE-Wonder.jpg', 'DE')
+	('P01', 'Love Letter', '15', 250.0, 'img/WD-LoveLetter.jpg', 'WD'),
+	('P02', 'Magic Moments', '15', 150.0, 'img/WD-MagicMoments.jpg', 'WD'),
+	('P03', 'Spring Poetry', '15', 250.0, 'img/WD-SpringPoetry.jpg', 'WD'),
+	('P04', 'Beautiful Day', '15', 190.0, 'img/CO-BeautifulDay.jpg', 'CO'),
+	('P05', 'New Day', '15', 130.0, 'img/CO-NewDay.jpg', 'CO'),
+	('P06', 'Silent', '15', 200.0, 'img/CO-Silent.jpg', 'CO'),
+	('P07', 'Forever', '15', 500.0, 'img/AN-Forever.jpg', 'AN'),
+	('P08', 'Pink Dream', '15', 150.0, 'img/AN-PinkDream.jpg', 'AN'),
+	('P09', 'Sweet Thoughts', '15', 230.0, 'img/AN-SweetThoughts.jpg', 'AN'),
+	('P10', 'Color Of Love', '15', 260.0, 'img/RO-ColorOfLove.jpg', 'RO'),
+	('P11', 'Told me', '15', 280.0, 'img/RO-ToldMe.jpg', 'RO'),
+	('P12', 'Falling In Love', '15', 190.0, 'img/RO-FallingInLove.jpg', 'RO'),
+	('P13', 'Reaching Hearts', '15', 320.0, 'img/DE-ReachingHearts.jpg', 'DE'),
+	('P14', 'Warm Sunny', '15', 420.0, 'img/DE-WarmSunny.jpg', 'DE'),
+	('P15', 'Wonder', '15', 360.0, 'im/DE-Wonder.jpg', 'DE')
 go
 insert into Bill (dateCreate, cusName, cusPhone, cusAddress, total, cusID, vouID) values
 	('2022-01-20 12:12:12.000', 'Vuong Giai Tue', '0964234234', 'Yuanlin, Changhua, Taiwan', 500.0, 1, ''),
