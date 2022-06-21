@@ -117,7 +117,7 @@ insert into Product values
 	('P12', 'Falling In Love', '15', 190.0, 'img/RO-FallingInLove.jpg', 'RO'),
 	('P13', 'Reaching Hearts', '15', 320.0, 'img/DE-ReachingHearts.jpg', 'DE'),
 	('P14', 'Warm Sunny', '15', 420.0, 'img/DE-WarmSunny.jpg', 'DE'),
-	('P15', 'Wonder', '15', 360.0, 'im/DE-Wonder.jpg', 'DE')
+	('P15', 'Wonder', '15', 360.0, 'img/DE-Wonder.jpg', 'DE')
 go
 insert into Bill (dateCreate, cusName, cusPhone, cusAddress, total, cusID, vouID) values
 	('2022-01-20 12:12:12.000', 'Vuong Giai Tue', '0964234234', 'Yuanlin, Changhua, Taiwan', 500.0, 1, ''),
